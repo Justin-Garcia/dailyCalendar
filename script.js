@@ -49,4 +49,6 @@ $(function () {
       }
     });
   }
+   updateTimeBlockColors();
+   setInterval(updateTimeBlockColors, 60000);
 });
